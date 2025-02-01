@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Shop</title>
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyui cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/4b9ab2d54c.js" crossorigin="anonymous"></script>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        .sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+
+</head>
+<body class="sora">
+    <header class="bg-gradient-to-r from-pink-50 via-pink-300 to-pink-500">
+        <!-- navbar -->
+        <div class="navbar bg-base-100 px-36 mb-20 pt-5">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Product</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              <img src="Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+              <a class="btn border-black">Login</a>
+              <a class="btn bg-green-500 text-white px-6">Button</a>
+            </div>
+          </div>
+
+          <!-- banner -->
+           <section class="mb-32">
+            <div class="text-center mx-96">
+                <h1 class="text-5xl font-bold mb-8 ">Freshness <span class="text-green-600">You Can <br>
+                    Count</span> On, Prices You’ll Love!</h1>
+                   <p class="text-xl mb-9">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+               </div>
+               <img class="mx-72" src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+           </section>
+    </header>
+    <main>
+        <!-- service -->
+        <section class="mb-32">
+            <h2 class="text-5xl font-semibold text-green-600 mb-12 mx-36">Services</h2>
+         
+        <div class="flex justify-between mx-36">
+            <!-- card-1 -->
+            <div class="card bg-base-100 w-96 shadow-xl bg-pink-100">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="Assignment_03_Category_0002/c2-assets/service.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">24/7 Services</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+              <!-- card-2 -->
+             <div class="card bg-base-100 w-96 shadow-xl bg-pink-100">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="Assignment_03_Category_0002/c2-assets/delivery.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Fast Delivery</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+              <!-- card-3 -->
+             <div class="card bg-base-100 w-96 shadow-xl bg-pink-100">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="Assignment_03_Category_0002/c2-assets/healthy.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Healthy Products </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                </div>
+              </div>
+        </div>
+        </section>
+    </main>
+    
+</body>
+</html>
